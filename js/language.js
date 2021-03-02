@@ -22,4 +22,4 @@ $(document).ready(function(){
 function adaptLanguage(data){
     $("#id_mainTitle").text(data.mainTitle)
     $("#id_text1").text(data.text1)
-}n
+}
