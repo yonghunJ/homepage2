@@ -416,7 +416,7 @@ ul.navigation li:hover ul.dropdown {
 
 @media screen and (min-width: 992px) {
   .grid.masonry .item:hover .thumb img {
-    opacity: .7;
+    opacity: .71;
   }
   .grid.masonry .item:hover .thumb:before {
     opacity: 1;
