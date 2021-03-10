@@ -24,7 +24,7 @@
               <div class="bar"></div>
             </div>
             <ul class="navigation">
-              <li><a href="./index.html">Instruction</a></li>
+              <li><a href="./index.html">Services</a></li>
               <li> <a href="./pages/about.html">About</a>
               </li>
               <li><a href="./pages/contact.html">Contact</a></li>
@@ -32,11 +32,12 @@
           </div>
         </div>
       </header>
+      <script>$(function(){$(".typed").typed({strings: ["Creative", "Creative Nation", "Hello"],typeSpeed: 130,loop: true  });});</script>
       <section class="hero text-center">
         <div class="container">
           <div class="row">
             <div class="col-md-6 col-md-offset-3">
-              <h1>Creative Nation</h1>
+              <h1> <span class="typed">Hello</span></h1>
               <p>It's always good to bring a slower friend with you on a hike. 
                 If you happen to come across bears, the whole group doesn't have to 
                 worry. Only the slowest in the group do. That was the lesson they 
@@ -48,7 +49,13 @@
       <section class="grid-container">
         <div class="container">
           <div class="row">
-            <div class="col-md-12"><a href="#" class="btn btn-default filter-trigger">Filter</a></div>
+            <!-- <div class="col-md-12"><a href="#" class="btn btn-default filter-trigger">Filter</a></div> -->
+            <span><a href="#" data-filter="item" class="btn btn-default active filter">All</a></span>
+            <span><a href="#" data-filter="design" class="btn btn-default  filter">Design</a></span>
+            <span><a href="#" data-filter="typography" class="btn btn-default filter">Typography</a></span>
+            <span><a href="#" data-filter="fashion" class="btn btn-default filter">Fashion</a></span>
+            <span><a href="#" data-filter="books" class="btn btn-default filter">Books</a></span>
+
             <div class="col-md-12 grid masonry"><a href="./pages/work-single.html" class="item books">
                 <div class="thumb"><img alt="Your Alternative text" src="./images/portfolio/07.png"></div>
                 <div class="caption">
