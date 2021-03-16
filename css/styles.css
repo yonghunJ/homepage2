@@ -831,7 +831,8 @@ aside:before {
   color: #fff;
   text-transform: uppercase;
   font-weight: 400;
-  padding: 16px 25px 15px;
+  /* padding: 16px 25px 15px; */
+  padding: 20px 8px 20px;
   -webkit-transition: background .3s;
   transition: background .3s;
   font-size: 13px;
