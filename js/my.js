@@ -12,7 +12,7 @@ $(function() {
         if($(window).width() < 480 ) {
            $('#logoImg').attr('src','./images/portfolio/logo.png');
            $('#logoImg').css('width','150px');
-           $('#logodiv').css('text-align','left');
+           $('#logodiv').css('text-align','left'); 
            
         }
         if($(window).width() > 480 ) {
