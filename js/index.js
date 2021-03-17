@@ -9,12 +9,20 @@ $(function() {
     // }
 
     $(window).resize(function() {
-        if($(window).width() < 480 ) {
-           $('#logoImg').attr('src','./images/portfolio/logo.png');
-           $('#logoImg').css('width','150px');
-           $('.small-disappear').hide()
-           
-        }
+        if($(window).width() < 580 && $(window).width() >= 480) {
+            $(".main_nav").css('font-size',13)
+         }else if($(window).width() < 480 && $(window).width() >= 455 ) {
+            $('#logoImg').attr('src','./images/portfolio/logo.png');
+            $('#logoImg').css('width','150px');
+            $('.small-disappear').hide()
+            $(".main_nav").css('font-size',9)
+         }else if($(window).width() < 455 && $(window).width() >= 400 ) {
+            $(".main_nav").css('font-size',8)
+         } else if($(window).width() < 400 && $(window).width() >= 350 ) {
+            $(".main_nav").css('font-size',7)
+         } else if($(window).width() < 350 ) {
+            $(".main_nav").css('font-size',6)
+         } 
         if($(window).width() > 480 ) {
             $('#logoImg').attr('src','./images/portfolio/logo.png');
             $('#logoImg').css('width','235px');
@@ -37,12 +45,21 @@ $(function() {
 });
 window.onload = function() {
     //dom not only ready, but everything is loaded
-    if($(window).width() < 480 ) {
+    
+    if($(window).width() < 580 && $(window).width() >= 480) {
+        $(".main_nav").css('font-size',13)
+     }else if($(window).width() < 480 && $(window).width() >= 455 ) {
         $('#logoImg').attr('src','./images/portfolio/logo.png');
         $('#logoImg').css('width','150px');
         $('.small-disappear').hide()
-        
-     }
+        $(".main_nav").css('font-size',9)
+     }else if($(window).width() < 455 && $(window).width() >= 400 ) {
+        $(".main_nav").css('font-size',8)
+     } else if($(window).width() < 400 && $(window).width() >= 350 ) {
+        $(".main_nav").css('font-size',7)
+     } else if($(window).width() < 350 ) {
+        $(".main_nav").css('font-size',6)
+     } 
      if($(window).width() > 480 ) {
          $('#logoImg').attr('src','./images/portfolio/logo.png');
          $('#logoImg').css('width','235px');
