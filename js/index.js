@@ -22,11 +22,14 @@ $(function() {
         }
 
         if($(window).width() < 992 ) {
+            $('.nav-trigger').css('text-align','-webkit-right')
             $('#logoImg').attr('src','./images/portfolio/logo.png');
             $('#logoImg').css('width','235px');
             $('.nav-trigger').css('width','100%')
             $('.bar').css('width','20px')
              
+
+            
         }
 
         
@@ -48,6 +51,7 @@ window.onload = function() {
      }
 
      if($(window).width() < 992 ) {
+        $('.nav-trigger').css('text-align','-webkit-right')
          $('#logoImg').attr('src','./images/portfolio/logo.png');
          $('#logoImg').css('width','235px');
          $('.nav-trigger').css('width','100%')

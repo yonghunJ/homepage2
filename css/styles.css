@@ -284,7 +284,7 @@ ul.navigation li:hover ul.dropdown {
 @media screen and (max-width: 992px) {
   .nav-trigger {
     display: block;
-    width: 45px;
+    /* width: 45px; */
     margin: 30px auto 0;
     cursor: pointer;
     -webkit-transition: all .3s;
