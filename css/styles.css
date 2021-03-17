@@ -1077,11 +1077,11 @@ ul.tag-list li {
   border-radius: 0;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   .pagination a {
     display: none;
   }
-}
+} */
 
 .pagination .previous, .pagination .next {
   font-size: 36px;
