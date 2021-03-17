@@ -49,7 +49,6 @@ window.onload = function() {
         $('#logoImg').attr('src','../images/portfolio/logo.png');
         $('#logoImg').css('width','150px');
         $('.small-disappear').hide()
-        
      }
      if($(window).width() > 480 ) {
          $('#logoImg').attr('src','../images/portfolio/logo.png');

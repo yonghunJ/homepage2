@@ -12,9 +12,6 @@ $(function() {
         if($(window).width() < 580 && $(window).width() >= 480) {
             $(".main_nav").css('font-size',13)
          }else if($(window).width() < 480 && $(window).width() >= 455 ) {
-            $('#logoImg').attr('src','./images/portfolio/logo.png');
-            $('#logoImg').css('width','150px');
-            $('.small-disappear').hide()
             $(".main_nav").css('font-size',9)
          }else if($(window).width() < 455 && $(window).width() >= 400 ) {
             $(".main_nav").css('font-size',8)
@@ -28,6 +25,11 @@ $(function() {
             $('#logoImg').css('width','235px');
             $('.small-disappear').show()
         }
+        if($(window).width() < 480 ) {
+            $('#logoImg').attr('src','./images/portfolio/logo.png');
+            $('#logoImg').css('width','150px');
+            $('.small-disappear').hide()
+         }
 
         if($(window).width() < 992 ) {
             $('.nav-trigger').css('text-align','-webkit-right')
@@ -49,9 +51,6 @@ window.onload = function() {
     if($(window).width() < 580 && $(window).width() >= 480) {
         $(".main_nav").css('font-size',13)
      }else if($(window).width() < 480 && $(window).width() >= 455 ) {
-        $('#logoImg').attr('src','./images/portfolio/logo.png');
-        $('#logoImg').css('width','150px');
-        $('.small-disappear').hide()
         $(".main_nav").css('font-size',9)
      }else if($(window).width() < 455 && $(window).width() >= 400 ) {
         $(".main_nav").css('font-size',8)
@@ -65,6 +64,11 @@ window.onload = function() {
          $('#logoImg').css('width','235px');
          $('.small-disappear').show()
           
+     }
+     if($(window).width() < 480 ) {
+        $('#logoImg').attr('src','./images/portfolio/logo.png');
+        $('#logoImg').css('width','150px');
+        $('.small-disappear').hide()
      }
 
      if($(window).width() < 992 ) {
