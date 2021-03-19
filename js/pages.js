@@ -24,8 +24,8 @@ $(function() {
         if($(window).width() < 992 ) {
             $('#logoImg').attr('src','../images/portfolio/logo.png');
             $('#logoImg').css('width','235px');
-            $('.nav-trigger').css('text-align','-webkit-right')
-            $('.bar').css('width','20px')
+            $('.nav-trigger').css('text-align','-webkit-center')
+            // $('.bar').css('width','20px')
              
             $('.q-wave_images_text_position').remove();
             $('.q-wave_images_text_position_head').before(`
@@ -60,9 +60,8 @@ window.onload = function() {
      if($(window).width() < 992 ) {
         $('#logoImg').attr('src','../images/portfolio/logo.png');
         $('#logoImg').css('width','235px');
-        $('.nav-trigger').css('text-align','-webkit-right')
-        // $('.nav-trigger').css('width','100%')
-        $('.bar').css('width','20px')
+        $('.nav-trigger').css('text-align','-webkit-center')
+        // $('.bar').css('width','20px')
          
         $('.q-wave_images_text_position').remove();
         $('.q-wave_images_text_position_head').before(`
